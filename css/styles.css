@@ -1,0 +1,167 @@
+/* CSS styles here... */
+
+
+* {
+    font-family: roboto;
+    padding:0;
+    margin:0;
+    /*border: 1px red solid;*/
+    /*background-color: #222127;*/
+    background-color: #fff;
+}
+
+
+.page{
+    margin: auto auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 1px blue solid;*/
+
+}
+
+
+
+
+
+    h1 {
+        font-size: 72px;
+        font-weight: black;
+
+    }
+    h2 {
+        font-size: 48px;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 32px;
+    }
+
+    body {
+        position: absolute;
+        display: flex;
+        height: 100%;
+        width: 100%;
+
+        /*border: 1px black solid;*/
+    }
+
+    .main {
+
+        margin: auto auto;
+        max-width: 800px;
+        /*border: 1px red solid;*/
+    }
+
+
+
+
+    div {
+        margin: 10px 0px;
+    }
+
+    p {
+        margin: 5px 0px;
+    }
+
+
+
+
+.one {
+    animation-duration: 2s;
+    animation-name: fade;
+    animation-transition: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity:0;
+}
+
+.two {
+    animation-duration: 2s;
+    animation-name: fade;
+    animation-transition: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    opacity:0;
+}
+
+.three {
+    animation-duration: 2s;
+    animation-name: fade;
+    animation-transition: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    opacity:0;
+
+}
+.four {
+    animation-duration: 2s;
+    animation-name: fade;
+    animation-transition: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    opacity:0;
+
+}
+.five{
+    animation-duration: 2s;
+    animation-name: fade;
+    animation-transition: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    opacity:0;
+
+}
+
+
+
+
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: #a9a9a9
+}
+
+ a:link,
+ a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #a9a9a9;
+}
+
+ a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+ a:active{
+    color: #DDDDDD;
+}
+
+
+.info {
+
+    line-height: 20px;
+}
+
+
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        color: #000;
+        /*color: #924;*/
+    }
+    to {
+        opacity: 1;
+        /*color: #90afc5;*/
+        color: #000;
+    }
+}
+
